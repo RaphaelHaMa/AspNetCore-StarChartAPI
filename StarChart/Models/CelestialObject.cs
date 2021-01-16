@@ -20,7 +20,6 @@ namespace StarChart.Models
 
         public CelestialObject()
         {
-            OrbitedObject = new CelestialObject();
             Satellites = new List<CelestialObject>();
         }
     }
